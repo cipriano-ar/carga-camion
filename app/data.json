@@ -1,0 +1,15 @@
+{
+  "producto1": {
+    "producto": "naranja",
+    "abr-prod": "nar",
+    "variedad": "navelina"
+  },
+  "producto2": {
+    "producto": "membrillo",
+    "variedad": "amarillo"
+  },
+  "producto3": {
+    "producto": "palta",
+    "variedad": "hass"
+  }
+}

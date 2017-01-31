@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- LIBS -->
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+    <script src="lib/angular-resource.js"></script>
+    <script src="app/app.js"></script>
+    <!-- CONTROLADORES -->
+    <script src="app/controllers/inicio.controller.js"></script>
+    <script src="app/controllers/crear.controller.js"></script>
+    <script src="app/controllers/detalle.controller.js"></script>
+    <script src="app/controllers/consultar.controller.js"></script>
+    <!-- SERVICIOS -->
+    <script src="app/services/cargas.service.js"></script>
+    <script src="app/services/pallets.service.js"></script>
+    <!-- DIRECTIVAS -->
+    <script src="app/directives/lista-productos.directive.js"></script>
+    <script src="app/directives/cont-lista-prod.directive.js"></script>
+
+    <title>Carga Cami&oacute;n</title>
+  </head>
+  <body ng-app="cargaCamion">
+    <div ui-view></div>
+  </body>
+</html>
